@@ -24,6 +24,7 @@ details:
   related_symbols:
     - "教室後排位置"
 
+
 module_id: "LS1_relation_protective_junior"
 module_type: "behavior_pattern"
 
