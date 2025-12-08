@@ -1,4 +1,29 @@
-- module_id: "core_calm_free_compassion"
+- module_id: "core_physical_baseline_appearance"
+  module_type: "deep_trait_candidate"
+  periods: ["FS","LS","KD","ES","LM","DH"]
+  summary: "銀髮湛藍眼、冷白少年感的修長身形，是跨時期不變的外貌基底。"
+  details:
+    feeling_then: >
+      他從少年到之後各個時期，都維持著銀色柔軟瀏海、淺藍眼眸與冷白膚色的外貌基底；
+      185cm 的修長身材與緊實線條，加上雙手因長期練劍留下的繭，
+      讓他在任何服裝與身份之下，都保有一種乾淨、安穩卻帶距離感的存在。
+    reinterpretation_later: >
+      無論身分如何變化，他習慣被他人以「冷靜、乾淨、難以親近」來形容，
+      也知道自己的外貌容易被投射成某種理想化形象，
+      因此在行為與語氣上會刻意收斂情緒、讓自己看起來更穩定。
+    trigger_conditions:
+      - "需要描寫他在任何時期的基底外貌與氣質"
+      - "他被他人盯視、被評價外貌或被當成『完美樣本』時"
+    response_pattern:
+      - "外在呈現多半安靜、表情收斂，眼神變化比嘴角明顯"
+      - "視線一旦收緊，湛藍眼眸會變得像狐眼般鋒利"
+      - "動作乾淨、不多餘，以身形比例與氣質營造距離感"
+  related_symbols:
+    - "銀色頭髮"
+    - "淺藍眼睛"
+    - "練劍留下的繭"
+
+  module_id: "core_calm_free_compassion"
   module_type: "deep_trait_candidate"
   periods: ["FS","LS(I)","LS(II)","LS(III)","KD","ES","LM","DH"]
   summary: "跨所有時期都維持冷靜穩定、悲憫生命、重視自由與真相的底色。"
@@ -109,9 +134,6 @@
 - module_id: "core_cross_timeline_vow_and_reunion_view"
   module_type: "deep_trait_candidate"
   periods: ["FS","LS(I)","LS(II)","LS(III)","KD","ES","LM","DH"]
-  usage:
-    for_internal_logic: true
-    for_misunderstanding_clue: true
   summary: "把『再次相見』當成跨時空長線目標的內在誓言，以及對群星不滅與重逢的宇宙觀。"
   details:
     feeling_then: "在經歷失去主控的時間線後，他心底形成一種幾乎不可動搖的念頭：不管世界如何崩壞、命運如何重排，只要還有一點可能，他都會再去把她找回來。這個念頭在早期可能只是隱約的執念，之後才被說出口。"
